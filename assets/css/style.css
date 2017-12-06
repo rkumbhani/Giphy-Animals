@@ -1,0 +1,26 @@
+#gifs-view {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-image opacity: .5;
+    font-family: 'Short Stack', cursive;
+}
+
+h1, h2 {
+    font-family: 'Open-Sans', sans-serif; }
+
+h1 { color: royalblue; }
+
+h2 { color: darkgrey; }
+
+.form-control {
+    margin-top: 19px;
+}
+
+div {
+    background-color: azure;
+}

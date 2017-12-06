@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Animal Gifs</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Short+Stack" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- buttons will show up here -->
+	
+	<div id="search-form">
+        <fieldset>
+            
+		<div class="form-group">
+	      <label for="Animal" class="col-lg-4 control-label">
+              <h1>Animal Gifs</h1>
+              <h2>Animal GIF Search</h2>
+          </label>  <br /><br /><br /><br /><br />
+        
+            <div id="buttons-view"></div>
+        
+        <div class="row">   
+            
+	      <div class="col-lg-6">
+	        <input type="text" class="form-control" id="inputAnimal" placeholder="Type an animal">
+	      </div>
+            
+	    <div class="form-group">
+	      <div class="col-lg-5">
+	        <button id="btn-add" class="btn btn-primary">Add</button>
+	        <button id="btn-clear" class="btn btn-default">Clear</button>
+	      </div>
+	    </div>
+            
+        </div>
+      </div>
+	    </fieldset>
+	</div>
+	
+	<!-- GIFs will show up here -->
+	<div class="panel panel-primary">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">GIF Results</h3>
+	  </div>
+	  <div class="panel-body">
+		<div id="gifs-view" class="col-lg-10 col-offset-2"></div>
+	  </div>
+	</div>
+
+  </div>
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- javascript -->
+  <script type="text/javascript" src="assets/javascript/script.js"></script>
+  
+
+</body>
+
+</html>
